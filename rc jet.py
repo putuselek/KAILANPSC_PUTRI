@@ -23,7 +23,7 @@ l=int(input("Masukkan tempahan bagi MPFF FORM = "))
 tempahan = [a,b,c,d,e,f,g,h,i,j,k,l]
 
 def jumlah_harga() :
-    for i in range(4) :
+    for i in range(12) :
         jumlah[i] = harga_komponen[i]*tempahan[i]
     return (jumlah)
 
